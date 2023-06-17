@@ -27,11 +27,12 @@ const houseSchema=new Schema({
     },
     equipement : {
             type : [String],
-            enum: ["wifi",  "tv",  "chaffage",  "climatiseur", 
-             "cuisine",  "cafetiere","salleBain", "refrigerateur",
-              "securite","fumee",  "jardin",  "toilet",  "transport",
-                "secheCheveux",  "camera",  "linge",  "espaceTravail",
-                  "billard",  "blender"]
+            enum: ["wifi",  "tv",  "chauffage",  "climatiseur", 
+             "cuisine", "blender","bebe",  "cafetiere","salleBain","secure",  "jardin",
+                  "work","billard","refrigerateur",
+              "securite","fumee",  "toilet",  "transport",
+                "sheceCheveux",  "camera",  "linge",  "espaceTravail",
+                   "sport","taxi"]
     },
     reglement :{
             type : [String],
