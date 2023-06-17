@@ -11,5 +11,5 @@ module.exports=async function get_gouvernement(latitude,longitude) {
         // console.log(result);
     }catch(err){
         return {error : err.message};
-    }   
+    }  
 }
