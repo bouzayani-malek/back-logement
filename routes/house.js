@@ -66,8 +66,11 @@ router.patch('/:house_id',auth_token,auth_owner_verif,async (req,res)=>{
 })
 
 //DELETE HOUSE BY OWNER
-router.delete('/:house_id',auth_token,auth_owner_verif,async (req,res)=>{
-    res.send(await delete_house(req));
+// router.delete('/:house_id',auth_token,auth_owner_verif,async (req,res)=>{
+//     res.send(await delete_house(req));
+// })
+router.delete('/:house_id',async (req,res)=>{
+  res.send(await delete_house(req));
 })
 //GET HOUSE BY USER ID
 router.get('/user/:id',async(req,res)=>{
