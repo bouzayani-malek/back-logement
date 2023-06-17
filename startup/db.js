@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 //     .then(console.log('Conneced to DataBase ...'))
 //     .catch(err => console.log(err));
 
-mongoose.connect('mongodb+srv://malek2000:IG1rl5sEQOz6jfDm@cluster0.gyp376n.mongodb.net/SouDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://malek2000:IG1rl5sEQOz6jfDm@cluster0.gyp376n.mongodb.net/MalekProjetDatabase?retryWrites=true&w=majority',
  { useUnifiedTopology: true ,useNewUrlParser: true ,useCreateIndex: true })
     .then(console.log('Conneced to DataBase ...'))
     .catch(err => console.log(err));

@@ -50,7 +50,12 @@ console.log(i);
 
 // // //---------- AJOUT DES HOUSES-----------------------
 
-const listeEquipement=["wifi",  "tv",  "chaffage",  "climatiseur",  "cuisine",  "cafetiere","salleBain", "refrigerateur", "securite","fumee",  "jardin",  "toilet",  "transport",  "secheCheveux",  "camera",  "linge",  "espaceTravail",  "billard",  "blender"]
+const listeEquipement= ["wifi",  "tv",  "chauffage",  "climatiseur", 
+"cuisine", "blender","bebe",  "cafetiere","salleBain","secure",  "jardin",
+     "work","billard","refrigerateur",
+ "securite","fumee",  "toilet",  "transport",
+   "sheceCheveux",  "camera",  "linge",  "espaceTravail",
+      "sport","taxi"]
 const listReglement=['enfant', 'bebe','animeaux','evenement']
 const listeOwner1= (await User.find().select({id :1})).map(value=>value.id);
 const listeGouvernement=["Ariana","beja","Ben Arous","Bizerte","gabes",
